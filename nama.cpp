@@ -5,8 +5,10 @@
 using namespace std;
 int main() {
     // Write C++ code here
-     string nama;
+    string nama;
     string sekolah;
+    string ulang;
+    do {
     cout<< "Masukkan Namamu ";
     cin>> nama;
     cout<< "Masukkan Nama Sekolah ";
@@ -14,7 +16,12 @@ int main() {
     cout<< "Namamu Adalah ";
     cout<< nama<<endl;
     cout<< "Nama Sekolah Mu Adalah ";
-    cout<< sekolah;
+    cout<< sekolah<<endl;
+    cout<< "apakah Anda Mau Mengulang Tekan y/Y: ";
+    cin>> ulang;
+    }
+        //operator atau
+       while (ulang=="y" || ulang=="Y");
     system("pause");
     return 0;
 }
