@@ -19,7 +19,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          g++ main.cpp -o program.exe
+          g++ nama.cpp -o program.exe
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
