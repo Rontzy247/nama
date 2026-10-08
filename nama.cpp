@@ -9,8 +9,7 @@ int main() {
     string sekolah;
     string ulang;
     do {
-    cout<< ".....SELAMAT DATANG DI PORTAL NAMA DAN SEKOLAH....."<<endl;
-     cout<<"© RonzzDev2026"<<endl;
+     cout<<"By: RonzzDev2026"<<endl;
     cout<< "Masukkan Namamu ";
     cin>> nama;
     cout<< "Masukkan Nama/Asal Sekolah ";
