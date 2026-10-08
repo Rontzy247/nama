@@ -9,9 +9,11 @@ int main() {
     string sekolah;
     string ulang;
     do {
+    cout<< ".....SELAMAT DATANG DI PORTAL NAMA DAN SEKOLAH....."<<endl;
+     cout<<"© RonzzDev2026"<<endl;
     cout<< "Masukkan Namamu ";
     cin>> nama;
-    cout<< "Masukkan Nama Sekolah ";
+    cout<< "Masukkan Nama/Asal Sekolah ";
     cin>> sekolah;
     cout<< "Namamu Adalah ";
     cout<< nama<<endl;
@@ -19,6 +21,7 @@ int main() {
     cout<< sekolah<<endl;
     cout<< "apakah Anda Mau Mengulang Tekan y/Y: ";
     cin>> ulang;
+   
     }
         //operator atau
        while (ulang=="y" || ulang=="Y");
