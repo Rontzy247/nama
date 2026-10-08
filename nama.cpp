@@ -8,6 +8,8 @@ int main() {
     string nama;
     string sekolah;
     string ulang;
+
+     cout<< ".....SELAMAT DATANG DI PORTAL NAMA DAN SEKOLAH....."<<endl;
     do {
      cout<<"By: RonzzDev2026"<<endl;
     cout<< "Masukkan Namamu ";
