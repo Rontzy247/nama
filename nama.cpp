@@ -15,7 +15,7 @@ int main() {
     cin>> nama;
     cout<< "Masukkan Nama/Asal Sekolah ";
     cin>> sekolah;
-    cout<< "Namamu Adalah ";
+    cout<< "Namamu Adalah "; 
     cout<< nama<<endl;
     cout<< "Nama Sekolah Mu Adalah ";
     cout<< sekolah<<endl;
